@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395165784436",
+    "firebase_url": "https://wannatalksdkapp.firebaseio.com",
+    "project_id": "wannatalksdkapp",
+    "storage_bucket": "wannatalksdkapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395165784436:android:02fcc969a2d5e8c3847421",
+        "android_client_info": {
+          "package_name": "com.wannatalk.wtsdkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395165784436-ru3t5etl4lut2emi87ul1e5drjmti32c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw5-Cf6MXf_7SY7OzQ_y7jfIQ5EqogRpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395165784436-ru3t5etl4lut2emi87ul1e5drjmti32c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='CompositeFileComparator']" />
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='DefaultFileComparator']" />
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='DirectoryFileComparator']" />
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='ExtensionFileComparator']" />
+        <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='LastModifiedFileComparator']" />
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='PathFileComparator']" />
+        <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='NameFileComparator']" />
+    <remove-node path="/api/package[@name='org.apache.commons.io.comparator']/class[@name='SizeFileComparator']" />
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io']/class[@name='IOUtils']" />
+    <remove-node path="/api/package[@name='org.apache.commons.io.input']/interface[@name='TailerListener']" />
+    
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io.input']/class[@name='ClosedInputStream']/field[@name='CLOSED_INPUT_STREAM']" />
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io.output']/class[@name='ClosedOutputStream']/field[@name='CLOSED_OUTPUT_STREAM']"/>
+    <remove-node path="/api/package[@name='org.apache.commons.io.output']/class[@name='NullWriter']/field[@name='NULL_WRITER']"/>
+    <remove-node path="/api/package[@name='org.apache.commons.io.output']/class[@name='NullOutputStream']/field[@name='NULL_OUTPUT_STREAM']"/>
+    
+    
+    <remove-node path="/api/package[@name='org.apache.commons.io']/class[@name='LineIterator']"/>
+    
+    
+    
+</metadata>

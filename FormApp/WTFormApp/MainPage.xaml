@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WTFormApp.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button Text="Login"
+                x:Name="btnLogin"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnLoginButtonClicked" />
+        <Button Text="SilentLogin"
+                x:Name="btnSilentLogin"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnSilentLoginButtonClicked" />
+        <Button Text="Logout"
+                x:Name="btnLogout"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnLogoutButtonClicked" />
+        <Button Text="Org Profile"
+                x:Name="btnOrgProfile"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnOrgProfileButtonClicked" />
+        <Button Text="User List"
+                x:Name="btnUserList"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnUserListButtonClicked" />
+        <Button Text="Chat List"
+                x:Name="btnChatList"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnChatListButtonClicked" />
+    </StackLayout>
+</ContentPage>

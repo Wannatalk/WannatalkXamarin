@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btn_login" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_login" />
+    <Button android:id="@+id/btn_silentlogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_silentlogin" />
+<Button android:id="@+id/btn_logout" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_logout" />
+    <Button android:id="@+id/btn_load_org" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_load_org" />
+    <Button android:id="@+id/btn_load_users" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_load_users" />
+    <Button android:id="@+id/btn_load_chats" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_load_chats" />
+</LinearLayout>

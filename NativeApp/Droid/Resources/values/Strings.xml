@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Click Me!</string>
+    <string name="app_name">WTNativeApp.Droid</string>
+
+
+    <string name="btn_login">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_silentlogin">Silent Login</string>
+    <string name="btn_load_org">Org Profile</string>
+    <string name="btn_load_users">Users</string>
+    <string name="btn_load_chats">Chats</string>
+
+</resources>

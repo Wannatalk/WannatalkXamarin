@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40062F00-F1AC-494B-8D81-721FC62BE882}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WTFormApp.Droid</RootNamespace>
+    <AssemblyName>WTFormApp.Android</AssemblyName>
+    <Deterministic>True</Deterministic>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="GoogleGson">
+      <Version>2.8.5</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Glide">
+      <Version>3.8.0</Version>
+    </PackageReference>
+    <PackageReference Include="Square.Retrofit2">
+      <Version>2.4.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Square.Retrofit2.ConverterGson">
+      <Version>2.4.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Google.Guava">
+      <Version>23.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>71.1740.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SDKManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.xml" />
+    <AndroidResource Include="Resources\layout\Toolbar.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
+    <AndroidResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WTFormApp\WTFormApp.csproj">
+      <Project>{CBF6F630-9FF3-40B7-A402-0E729ABDDEE5}</Project>
+      <Name>WTFormApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\AsyncJob\AsyncJob.csproj">
+      <Project>{F5B03DAF-E70B-45BB-AEC2-508E1F8CD3C5}</Project>
+      <Name>AsyncJob</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\CommonsIO\CommonsIO.csproj">
+      <Project>{59AF940A-55D4-425D-9A49-DFD0DC555ACE}</Project>
+      <Name>CommonsIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\Fresco\Fresco.csproj">
+      <Project>{4D8F90CA-A9DD-4D79-B17E-53725B6B111B}</Project>
+      <Name>Fresco</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\FrescoBoltsTasks\FrescoBoltsTasks.csproj">
+      <Project>{830031BA-EF6A-485D-8BC5-243335FA30C0}</Project>
+      <Name>FrescoBoltsTasks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\FrescoCore\FrescoCore.csproj">
+      <Project>{5228E7B7-8C29-4C04-8347-E11BF9975265}</Project>
+      <Name>FrescoCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\FrescoDrawee\FrescoDrawee.csproj">
+      <Project>{F4958E7E-F517-41B9-871C-4F3E4A16766F}</Project>
+      <Name>FrescoDrawee</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\FrescoImagepipeline\FrescoImagepipeline.csproj">
+      <Project>{EB884A9A-7760-4CB9-B6EE-0B90E3FC3AE0}</Project>
+      <Name>FrescoImagepipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\FrescoImagepipelineBase\FrescoImagepipelineBase.csproj">
+      <Project>{014FE67F-FE42-4AF5-8A97-2A11E1665647}</Project>
+      <Name>FrescoImagepipelineBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\GlideTransform\GlideTransform.csproj">
+      <Project>{0EE6FB7C-C173-48AE-9B6A-E399372F65EC}</Project>
+      <Name>GlideTransform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\LinkMovement\LinkMovement.csproj">
+      <Project>{9AA61866-BB4C-4A0E-B903-B2E0E5649175}</Project>
+      <Name>LinkMovement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\SquareOtto\SquareOtto.csproj">
+      <Project>{93CB160C-AE69-44AA-A0B2-E2BCC2ACF9BA}</Project>
+      <Name>SquareOtto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\WannatalkSDK.Droid\WannatalkSDK.Droid.csproj">
+      <Project>{E4765647-7CAD-42AB-A540-FDB69789D2F0}</Project>
+      <Name>WannatalkSDK.Droid</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wannatalk-services.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <GoogleServicesJson Include="google-services.json">
+      <SubType></SubType>
+      <Generator></Generator>
+    </GoogleServicesJson>
+  </ItemGroup>
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

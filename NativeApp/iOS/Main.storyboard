@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Uyt-M8-XG4">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="foR-TW-9DD">
+            <objects>
+                <viewController id="Uyt-M8-XG4" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v2c-Ac-WOW"/>
+                        <viewControllerLayoutGuide type="bottom" id="kda-jw-SVj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TT3-E6-gHC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1nB-de-kpF">
+                                <rect key="frame" x="97.5" y="177" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.70588235290000001" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="Ip9-tP-F4J"/>
+                                    <constraint firstAttribute="height" constant="55" id="RtG-7e-AHB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Org Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkU-ui-hL2">
+                                <rect key="frame" x="97.5" y="262" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.70588235290000001" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Fxn-wa-8YR"/>
+                                    <constraint firstAttribute="width" constant="180" id="yyY-fN-Nnj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Chat List">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j02-5w-nic">
+                                <rect key="frame" x="97.5" y="347" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.1529411765" green="0.70588235290000001" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="O7E-3X-Sra"/>
+                                    <constraint firstAttribute="height" constant="55" id="Z9c-iI-CTs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="User List">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlS-jM-fZU">
+                                <rect key="frame" x="97.5" y="261" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qx8-xA-d1C">
+                                <rect key="frame" x="97.5" y="432" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcg-OH-m6w">
+                                <rect key="frame" x="97.5" y="350" width="180" height="55"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.31372549020000001" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Silent Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zcg-OH-m6w" firstAttribute="centerX" secondItem="TT3-E6-gHC" secondAttribute="centerX" id="6uV-nB-unR"/>
+                            <constraint firstItem="qx8-xA-d1C" firstAttribute="top" secondItem="j02-5w-nic" secondAttribute="bottom" constant="30" id="Dxd-Ph-K0S"/>
+                            <constraint firstItem="1nB-de-kpF" firstAttribute="centerX" secondItem="TT3-E6-gHC" secondAttribute="centerX" id="E5S-tB-l4g"/>
+                            <constraint firstItem="ZlS-jM-fZU" firstAttribute="height" secondItem="1nB-de-kpF" secondAttribute="height" id="HXD-Zb-Nc3"/>
+                            <constraint firstItem="qx8-xA-d1C" firstAttribute="centerX" secondItem="TT3-E6-gHC" secondAttribute="centerX" id="Jvp-WL-4aJ"/>
+                            <constraint firstItem="AkU-ui-hL2" firstAttribute="top" secondItem="1nB-de-kpF" secondAttribute="bottom" constant="30" id="N6N-aK-PNn"/>
+                            <constraint firstItem="AkU-ui-hL2" firstAttribute="centerY" secondItem="TT3-E6-gHC" secondAttribute="centerY" constant="-44" id="ObZ-T8-Dsc"/>
+                            <constraint firstItem="qx8-xA-d1C" firstAttribute="height" secondItem="1nB-de-kpF" secondAttribute="height" id="bL8-Pi-SJ8"/>
+                            <constraint firstItem="qx8-xA-d1C" firstAttribute="width" secondItem="1nB-de-kpF" secondAttribute="width" id="ft8-DB-xYH"/>
+                            <constraint firstItem="j02-5w-nic" firstAttribute="top" secondItem="AkU-ui-hL2" secondAttribute="bottom" constant="30" id="hUX-kW-kxK"/>
+                            <constraint firstItem="ZlS-jM-fZU" firstAttribute="centerX" secondItem="TT3-E6-gHC" secondAttribute="centerX" id="hp6-du-cn6"/>
+                            <constraint firstItem="ZlS-jM-fZU" firstAttribute="centerY" secondItem="TT3-E6-gHC" secondAttribute="centerY" constant="-45" id="iZv-V0-qSA"/>
+                            <constraint firstItem="AkU-ui-hL2" firstAttribute="centerX" secondItem="1nB-de-kpF" secondAttribute="centerX" id="kcj-up-Liu"/>
+                            <constraint firstItem="ZlS-jM-fZU" firstAttribute="width" secondItem="1nB-de-kpF" secondAttribute="width" id="mkZ-ed-2s8"/>
+                            <constraint firstItem="zcg-OH-m6w" firstAttribute="width" secondItem="1nB-de-kpF" secondAttribute="width" id="nez-uX-O80"/>
+                            <constraint firstItem="AkU-ui-hL2" firstAttribute="centerX" secondItem="TT3-E6-gHC" secondAttribute="centerX" id="o9T-W7-6rE"/>
+                            <constraint firstItem="j02-5w-nic" firstAttribute="centerX" secondItem="AkU-ui-hL2" secondAttribute="centerX" id="qXN-E1-sAr"/>
+                            <constraint firstItem="zcg-OH-m6w" firstAttribute="centerY" secondItem="TT3-E6-gHC" secondAttribute="centerY" constant="44" id="xvc-Z8-nnz"/>
+                            <constraint firstItem="zcg-OH-m6w" firstAttribute="height" secondItem="1nB-de-kpF" secondAttribute="height" id="zJR-CU-Dbh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BtnChatList" destination="AkU-ui-hL2" id="zW7-xL-uYi"/>
+                        <outlet property="BtnLogin" destination="ZlS-jM-fZU" id="ez9-GZ-dI7"/>
+                        <outlet property="BtnLogout" destination="qx8-xA-d1C" id="v2w-KZ-6gS"/>
+                        <outlet property="BtnOrgProfile" destination="1nB-de-kpF" id="weY-5O-UbE"/>
+                        <outlet property="BtnSilentLogin" destination="zcg-OH-m6w" id="Gaq-QX-JfD"/>
+                        <outlet property="BtnUserList" destination="j02-5w-nic" id="0Uo-5h-j01"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvO-8h-BuO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="30"/>
+        </scene>
+    </scenes>
+</document>
